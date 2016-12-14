@@ -1,0 +1,20 @@
+---
+title: "Revised Web-links of Interactive Visualizations"
+author: "Patil, Vivek H. (2014). Identification of Influential Marketing Scholars and their Institutions Using Social Network Analysis, Journal of Marketing Analytics, 2 (4), 239-249."
+date: ""
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+After Dropbox discontinued the rendering of web-pages, it became necessary to create different web-links for the interactive visualizations discussed in the article.
+
+| Figure and Web-Link        | Description          |
+| --------------------------- |:-------------------------------------------- |
+| Figure 1: Mapping Author Affiliations (http://patilv.com/2014JMAWebsite/Affiliationslocation.html)| Permits a reader to hover over a world map to identify the name of an institution, the country, and number of mentions it had in the 4 journals. Markers are sized based on the number of mentions. | 
+| Figure 4: Network between 369 Affiliations (http://patilv.com/2014JMAWebsite/gephinet/network/index.html)| Nodes are colored based on the country the affiliation is in and they are sized based on the number of connections to it. A reader could select a particular node to visualize the network of that institution. They can also search by names of institutions.      | 
+| Figure 5: Network between 1276 Authors (http://patilv.com/2014JMAWebsite/gephiauthornetmono/network/index.html) | Nodes are sized based on the number of connections to it. A reader could select a particular node to visualize the network of that author. They can also search by names of authors.      | 
+|Figure 8: Sortable table of Affiliations clusters (http://patilv.com/2014JMAWebsite/AffiliationTable.html) | List of affiliations can be sorted either alphabetically or by the cluster number (1 being most influential and 3 being least).|
+|Figure 9: Sortable table of Author clusters (http://patilv.com/2014JMAWebsite/AuthorTable.html)|List of authors can be sorted either alphabetically or by the cluster number (1 being most influential and 3 being least).|
